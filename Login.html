@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	<title>Layout </title>
+	<style>
+	 .header{
+	 background-color:#5e9cff;
+	 padding:15px;
+	 text-align:center;
+	 
+	 }
+	 .navmenu{
+	 overflow:hidden;
+	 background-color:black;
+	 
+	 }
+	 .navmenu a{
+	 float:left;
+	 display:block;
+	 color:white;
+	 text-decoration:none;
+	 text-align:center;
+	 padding:15px 20px;
+	 
+	 }
+	 .navmenu a:hover{
+	 background-color:white;
+	 color:black;
+	 }
+	 .col1,.col2,.col3{
+	 float:left;
+	 width:30%;
+	 padding:15px;
+	 text-align:justify;
+	 }
+	 .Footer{
+	 background-color:gray;
+	 padding:15px;
+	 text-align:center;
+	 }
+	 table,tr,td{ 
+	 border:2px solid black;
+	 border-collapse:collapse;
+	 }
+	 button{ 
+	 border:2px solid blue;
+	 background-color:blue;
+	 color:white;
+	 font-size:15px;
+	 }
+	
+	</style>
+	</head>
+	<body>
+		<div class="header">
+			<h1 style="color:white;"> Online Banking </h1>
+		</div>
+		<div class="navmenu">
+			<a href="index.html">Home</a>
+			<a href="registar.html">Register</a>
+			<a href="login.html">Login</a>
+			<a href="about.html">About</a>
+			<a href="gallary.html">Gallary</a>
+		</div>
+		<div class="row">
+			<div class="col1">
+				
+			</div>
+			<div class="col2">
+				<h1>Login Form</h1>
+				
+				
+				
+				<form name="f1" action="#" method="post">
+				<table>
+					
+					<tr>
+						<td> <label>Username/Customer Id</label></td>
+						<td><input type="text" id="uname" name="uname" required></td>
+					</tr>
+					
+					<tr>
+						<td> <label>Password</label></td>
+						<td><input type="password" id="pword" name="pword" required></td>
+					</tr>
+					
+					
+						<tr>
+						<td><label>Select Role</label> </td>
+						<td>
+							<select id="role" name="role" required>
+								<option>Select</option>
+								<option>Banker</option>
+								<option>Customer</option>
+								
+							</select>
+						</td>
+					</tr>
+					
+					
+					<tr>
+					<td colspan="2" align="center"><button>Login</button> </td>
+					</tr>
+				</table>
+				</form>
+	
+			</div>
+			<div class="col3">
+
+			</div>
+			
+		</div>
+		<br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+		<br/><br/><br/><br/>
+		
+		<div class="Footer">
+			<h3 style="color:white;"> Online Banking &copy;Copyright 2022</h3>
+		</div>
+	</body>
+</html>
